@@ -22,7 +22,7 @@ RUN apk update && apk add tzdata \
 
 RUN apk add --update ca-certificates && rm -rf /var/cache/apk/*
 
-COPY --from=build-env go/src/github.com/solution9th/S3Adapter/os_proxy /main
+COPY --from=build-env go/src/github.com/solution9th/S3Adapter/S3Adapter /main
 
 EXPOSE 9091
 

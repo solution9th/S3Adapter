@@ -52,7 +52,7 @@
 ### Docker
 
 ```shell
-$ docker run -ti  -p 8080:8080 s9/os_proxy:latest web \
+$ docker run -ti  -p 8080:8080 solution9th/S3Adapter:latest web \
   --show \
   --mysqlhost=docker.for.mac.host.internal \
   --httpport=8080
@@ -67,7 +67,7 @@ $ docker run -ti  -p 8080:8080 s9/os_proxy:latest web \
 *Go version>=1.10 AND GO111MODULE=on*
 
 ```shell
-$ go get github.com/solution9th/os_proxy
+$ go get github.com/solution9th/S3Adapter
 $ export GO111MODULE=on
 $ make build
 ```
@@ -75,11 +75,11 @@ $ make build
 ## 命令
 
 ```shell
-$ ./os_proxy --help
+$ ./S3Adapter --help
 A AWS S3-compatible CLI
 
 Usage:
-  os_proxy [command]
+  S3Adapter [command]
 
 Available Commands:
   config      Just show config
@@ -89,9 +89,9 @@ Available Commands:
 
 Flags:
       --config string   config file (default is ./osconfig.yml)
-  -h, --help            help for os_proxy
+  -h, --help            help for S3Adapter
 
-Use "os_proxy [command] --help" for more information about a command.
+Use "S3Adapter [command] --help" for more information about a command.
 ```
 
 - config 查看程序当前环境下的配置文件路径和具体配置信息
@@ -99,7 +99,7 @@ Use "os_proxy [command] --help" for more information about a command.
 - web 以 http 服务的形式启动程序
 - `--config` 指定具体的配置文件，如果不指定则为可执行文件当前路径下的 `osconfig.yml` 文件
 
-**建议使用 `os_proxy [command] --help` 查看具体信息**
+**建议使用 `S3Adapter [command] --help` 查看具体信息**
 
 ## 配置
 
@@ -110,11 +110,11 @@ Use "os_proxy [command] --help" for more information about a command.
 读取的优先级: **命令行参数 > 环境变量 > 配置文件 > 默认配置文件**
 
 ```shell
-$ ./os_proxy web --help
+$ ./S3Adapter web --help
 Start Web Server
 
 Usage:
-  os_proxy web [flags]
+  S3Adapter web [flags]
 
 Flags:
       --debug                  is debug
