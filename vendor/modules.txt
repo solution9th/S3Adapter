@@ -1,0 +1,194 @@
+# bou.ke/monkey v1.0.1
+bou.ke/monkey
+# github.com/ajg/form v1.5.1
+github.com/ajg/form
+# github.com/aliyun/aliyun-oss-go-sdk v1.9.8
+github.com/aliyun/aliyun-oss-go-sdk/oss
+# github.com/aws/aws-sdk-go v1.19.48
+github.com/aws/aws-sdk-go/aws
+github.com/aws/aws-sdk-go/aws/awserr
+github.com/aws/aws-sdk-go/service/s3
+github.com/aws/aws-sdk-go/aws/credentials
+github.com/aws/aws-sdk-go/aws/session
+github.com/aws/aws-sdk-go/aws/request
+github.com/aws/aws-sdk-go/private/protocol
+github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil
+github.com/aws/aws-sdk-go/aws/endpoints
+github.com/aws/aws-sdk-go/internal/sdkio
+github.com/aws/aws-sdk-go/aws/awsutil
+github.com/aws/aws-sdk-go/aws/client
+github.com/aws/aws-sdk-go/aws/client/metadata
+github.com/aws/aws-sdk-go/aws/signer/v4
+github.com/aws/aws-sdk-go/internal/s3err
+github.com/aws/aws-sdk-go/private/protocol/eventstream
+github.com/aws/aws-sdk-go/private/protocol/eventstream/eventstreamapi
+github.com/aws/aws-sdk-go/private/protocol/rest
+github.com/aws/aws-sdk-go/private/protocol/restxml
+github.com/aws/aws-sdk-go/internal/ini
+github.com/aws/aws-sdk-go/internal/shareddefaults
+github.com/aws/aws-sdk-go/aws/corehandlers
+github.com/aws/aws-sdk-go/aws/credentials/processcreds
+github.com/aws/aws-sdk-go/aws/credentials/stscreds
+github.com/aws/aws-sdk-go/aws/csm
+github.com/aws/aws-sdk-go/aws/defaults
+github.com/aws/aws-sdk-go/internal/sdkrand
+github.com/aws/aws-sdk-go/private/protocol/query
+github.com/aws/aws-sdk-go/service/sts
+github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds
+github.com/aws/aws-sdk-go/aws/credentials/endpointcreds
+github.com/aws/aws-sdk-go/aws/ec2metadata
+github.com/aws/aws-sdk-go/private/protocol/query/queryutil
+github.com/aws/aws-sdk-go/internal/sdkuri
+github.com/aws/aws-sdk-go/private/protocol/json/jsonutil
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
+# github.com/dustin/go-humanize v1.0.0
+github.com/dustin/go-humanize
+# github.com/fatih/structs v1.1.0
+github.com/fatih/structs
+# github.com/fsnotify/fsnotify v1.4.7
+github.com/fsnotify/fsnotify
+# github.com/gavv/httpexpect v2.0.0+incompatible
+github.com/gavv/httpexpect
+# github.com/go-sql-driver/mysql v1.4.1
+github.com/go-sql-driver/mysql
+# github.com/golang/mock v1.3.2-0.20190517145838-140ae90f29ea
+github.com/golang/mock/gomock
+# github.com/google/go-querystring v1.0.0
+github.com/google/go-querystring/query
+# github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1
+github.com/gopherjs/gopherjs/js
+# github.com/gorilla/mux v1.7.2
+github.com/gorilla/mux
+# github.com/gorilla/websocket v1.4.0
+github.com/gorilla/websocket
+# github.com/haozibi/gendry v0.0.0-20181228133255-0e378288a754
+github.com/haozibi/gendry/builder
+github.com/haozibi/gendry/manager
+github.com/haozibi/gendry/scanner
+# github.com/haozibi/zlog v0.1.0
+github.com/haozibi/zlog
+# github.com/hashicorp/hcl v1.0.0
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/imkira/go-interpol v1.1.0
+github.com/imkira/go-interpol
+# github.com/inconshreveable/mousetrap v1.0.0
+github.com/inconshreveable/mousetrap
+# github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af
+github.com/jmespath/go-jmespath
+# github.com/jtolds/gls v4.20.0+incompatible
+github.com/jtolds/gls
+# github.com/klauspost/compress v1.4.0
+github.com/klauspost/compress/flate
+github.com/klauspost/compress/gzip
+github.com/klauspost/compress/zlib
+# github.com/klauspost/cpuid v0.0.0-20180405133222-e7e905edc00e
+github.com/klauspost/cpuid
+# github.com/magiconair/properties v1.8.0
+github.com/magiconair/properties
+# github.com/mitchellh/go-homedir v1.1.0
+github.com/mitchellh/go-homedir
+# github.com/mitchellh/mapstructure v1.1.2
+github.com/mitchellh/mapstructure
+# github.com/moul/http2curl v1.0.0
+github.com/moul/http2curl
+# github.com/mozillazg/go-httpheader v0.2.1
+github.com/mozillazg/go-httpheader
+# github.com/pelletier/go-toml v1.2.0
+github.com/pelletier/go-toml
+# github.com/pengsrc/go-shared v0.2.0
+github.com/pengsrc/go-shared/log
+github.com/pengsrc/go-shared/convert
+github.com/pengsrc/go-shared/buffer
+github.com/pengsrc/go-shared/check
+github.com/pengsrc/go-shared/reopen
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/prashantv/gostub v1.0.0
+github.com/prashantv/gostub
+# github.com/rs/zerolog v1.14.3
+github.com/rs/zerolog
+github.com/rs/zerolog/internal/cbor
+github.com/rs/zerolog/internal/json
+# github.com/sergi/go-diff v1.0.0
+github.com/sergi/go-diff/diffmatchpatch
+# github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d
+github.com/smartystreets/assertions
+github.com/smartystreets/assertions/internal/go-render/render
+github.com/smartystreets/assertions/internal/oglematchers
+# github.com/smartystreets/goconvey v0.0.0-20190330032615-68dc04aab96a
+github.com/smartystreets/goconvey/convey
+github.com/smartystreets/goconvey/convey/reporting
+github.com/smartystreets/goconvey/convey/gotest
+# github.com/spf13/afero v1.1.2
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.3.0
+github.com/spf13/cast
+# github.com/spf13/cobra v0.0.5
+github.com/spf13/cobra
+# github.com/spf13/jwalterweatherman v1.0.0
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.3
+github.com/spf13/pflag
+# github.com/spf13/viper v1.4.0
+github.com/spf13/viper
+# github.com/stretchr/testify v1.3.0
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/require
+# github.com/tencentyun/cos-go-sdk-v5 v0.0.0-20190529075507-68aae1f806e1
+github.com/tencentyun/cos-go-sdk-v5
+github.com/tencentyun/cos-go-sdk-v5/debug
+# github.com/valyala/bytebufferpool v1.0.0
+github.com/valyala/bytebufferpool
+# github.com/valyala/fasthttp v1.3.0
+github.com/valyala/fasthttp
+github.com/valyala/fasthttp/fasthttputil
+github.com/valyala/fasthttp/stackless
+# github.com/xeipuuv/gojsonpointer v0.0.0-20180127040702-4e3ac2762d5f
+github.com/xeipuuv/gojsonpointer
+# github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415
+github.com/xeipuuv/gojsonreference
+# github.com/xeipuuv/gojsonschema v1.1.0
+github.com/xeipuuv/gojsonschema
+# github.com/yalp/jsonpath v0.0.0-20180802001716-5cc68e5049a0
+github.com/yalp/jsonpath
+# github.com/yudai/gojsondiff v1.0.0
+github.com/yudai/gojsondiff
+github.com/yudai/gojsondiff/formatter
+# github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82
+github.com/yudai/golcs
+# github.com/yunify/qingstor-sdk-go v2.2.15+incompatible
+github.com/yunify/qingstor-sdk-go/config
+github.com/yunify/qingstor-sdk-go/request/errors
+github.com/yunify/qingstor-sdk-go/service
+github.com/yunify/qingstor-sdk-go/logger
+github.com/yunify/qingstor-sdk-go/utils
+github.com/yunify/qingstor-sdk-go/request
+github.com/yunify/qingstor-sdk-go/request/data
+github.com/yunify/qingstor-sdk-go/request/builder
+github.com/yunify/qingstor-sdk-go/request/signer
+github.com/yunify/qingstor-sdk-go/request/unpacker
+github.com/yunify/qingstor-sdk-go
+# golang.org/x/net v0.0.0-20190611141213-3f473d35a33a
+golang.org/x/net/publicsuffix
+# golang.org/x/sys v0.0.0-20190610200419-93c9922d18ae
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.2
+golang.org/x/text/transform
+golang.org/x/text/unicode/norm
+# golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
+golang.org/x/time/rate
+# google.golang.org/appengine v1.1.0
+google.golang.org/appengine/cloudsql
+# gopkg.in/yaml.v2 v2.2.2
+gopkg.in/yaml.v2
