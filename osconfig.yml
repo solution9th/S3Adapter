@@ -1,0 +1,14 @@
+server:
+  httpport: "9091"
+  pprofport: "9092"
+  endpoint: "s3.example.com"
+  region: osbeijing
+  isdebug: false
+  logpath: "log.log" # 如果为空则默认是 stdout
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  passwd: "password"
+  dbname: "s3"

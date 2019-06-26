@@ -1,0 +1,15 @@
+[Unit]
+Description=S3Adapter
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/project/S3Adapter/
+ExecStart=/root/project/S3Adapter/S3Adapter web
+StandardOutput=syslog
+StandardError=syslog
+Restart=on-failure
+RestartSec=1s
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+server:
+  httpport: "8080"
+  pprofport: "8081"
+  endpoint: "s3.newio.cc"
+  region: osbeijing
+  isdebug: false
+  logpath: "" # 如果为空则默认是 stdout
+
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  passwd: "666666"
+  dbname: "s3"
